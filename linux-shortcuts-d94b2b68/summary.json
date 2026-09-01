@@ -1,0 +1,111 @@
+{
+  "ok": true,
+  "scenarioId": "LINUX-SHORTCUTS",
+  "tier": "tier1-local-shell",
+  "runId": "linux-shortcuts-2026-09-01T21-57-28-577Z",
+  "runDir": "/tmp/attn-real-app-harness/linux-shortcuts-2026-09-01T21-57-28-577Z",
+  "sessionDir": "/tmp/attn-real-app-sessions/linux-shortcuts-2026-09-01T21-57-28-577Z",
+  "metadata": {
+    "agent": "shell",
+    "focus": "xdotool drives Ctrl+Shift app actions while plain Ctrl+W reaches bash readline"
+  },
+  "steps": [
+    {
+      "name": "launch_app",
+      "startedAt": "2026-09-01T21:57:28.578Z",
+      "endedAt": "2026-09-01T21:57:30.541Z",
+      "durationMs": 1963,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "create_shell",
+      "startedAt": "2026-09-01T21:57:30.541Z",
+      "endedAt": "2026-09-01T21:57:31.372Z",
+      "durationMs": 831,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "plain_ctrl_w_reaches_bash",
+      "startedAt": "2026-09-01T21:57:31.372Z",
+      "endedAt": "2026-09-01T21:57:33.916Z",
+      "durationMs": 2544,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "ctrl_shift_n_opens_new_session",
+      "startedAt": "2026-09-01T21:57:33.917Z",
+      "endedAt": "2026-09-01T21:57:35.016Z",
+      "durationMs": 1099,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "ctrl_shift_k_opens_action_menu",
+      "startedAt": "2026-09-01T21:57:35.016Z",
+      "endedAt": "2026-09-01T21:57:36.314Z",
+      "durationMs": 1298,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "ctrl_shift_d_splits_and_arrows_move_focus",
+      "startedAt": "2026-09-01T21:57:36.314Z",
+      "endedAt": "2026-09-01T21:57:38.004Z",
+      "durationMs": 1690,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "ctrl_shift_w_closes_focused_pane",
+      "startedAt": "2026-09-01T21:57:38.005Z",
+      "endedAt": "2026-09-01T21:57:38.556Z",
+      "durationMs": 551,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "ctrl_alt_g_opens_garden",
+      "startedAt": "2026-09-01T21:57:38.556Z",
+      "endedAt": "2026-09-01T21:57:39.688Z",
+      "durationMs": 1132,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "ctrl_shift_slash_opens_linux_cheatsheet",
+      "startedAt": "2026-09-01T21:57:39.690Z",
+      "endedAt": "2026-09-01T21:57:40.632Z",
+      "durationMs": 942,
+      "status": "ok",
+      "details": null
+    }
+  ],
+  "assertions": [
+    {
+      "ok": true,
+      "message": "No initial shell pane: {\"activePaneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"agent\":\"shell\",\"cwd\":\"/tmp/attn-real-app-sessions/linux-shortcuts-2026-09-01T21-57-28-577Z\",\"daemonActivePaneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"id\":\"10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"label\":\"linux-shortcuts-linux-shortcuts-2026-09-01T21-57-28-577Z\",\"panes\":[{\"kind\":\"agent\",\"paneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"runtimeId\":\"10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"sessionId\":\"10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"title\":\"linux-shortcuts-linux-shortcuts-2026-09-01T21-57-28-577Z\"}],\"state\":\"idle\",\"workspace\":{\"activePaneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"daemonActivePaneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"layout\":{\"paneCount\":1,\"panes\":[{\"bounds\":{\"bottom\":1,\"height\":1,\"left\":0,\"right\":1,\"top\":0,\"width\":1},\"depth\":0,\"paneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"path\":\"root\"}],\"splitCount\":0,\"splits\":[]},\"layoutTree\":{\"paneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"type\":\"pane\"},\"panes\":[{\"kind\":\"agent\",\"paneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"runtimeId\":\"10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"sessionId\":\"10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"title\":\"linux-shortcuts-linux-shortcuts-2026-09-01T21-57-28-577Z\"}],\"sessionPaneCount\":1},\"workspaceId\":\"workspace-10f9c9bf-8506-433c-abbc-727cf2aa99d4\"}",
+      "details": null,
+      "at": "2026-09-01T21:57:30.941Z"
+    },
+    {
+      "ok": true,
+      "message": "No utility pane after split: {\"activePaneId\":\"pane-c6ebb467-2b2e-430a-aa29-e89026e33680\",\"agent\":\"shell\",\"cwd\":\"/tmp/attn-real-app-sessions/linux-shortcuts-2026-09-01T21-57-28-577Z\",\"daemonActivePaneId\":\"pane-c6ebb467-2b2e-430a-aa29-e89026e33680\",\"id\":\"10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"label\":\"linux-shortcuts-linux-shortcuts-2026-09-01T21-57-28-577Z\",\"panes\":[{\"kind\":\"agent\",\"paneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"runtimeId\":\"10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"sessionId\":\"10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"title\":\"linux-shortcuts-linux-shortcuts-2026-09-01T21-57-28-577Z\"},{\"kind\":\"agent\",\"paneId\":\"pane-c6ebb467-2b2e-430a-aa29-e89026e33680\",\"runtimeId\":\"c6ebb467-2b2e-430a-aa29-e89026e33680\",\"sessionId\":\"c6ebb467-2b2e-430a-aa29-e89026e33680\",\"title\":\"shell 2\"}],\"state\":\"idle\",\"workspace\":{\"activePaneId\":\"pane-c6ebb467-2b2e-430a-aa29-e89026e33680\",\"daemonActivePaneId\":\"pane-c6ebb467-2b2e-430a-aa29-e89026e33680\",\"layout\":{\"paneCount\":2,\"panes\":[{\"bounds\":{\"bottom\":1,\"height\":1,\"left\":0,\"right\":0.5,\"top\":0,\"width\":0.5},\"depth\":1,\"paneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"path\":\"root/0\"},{\"bounds\":{\"bottom\":1,\"height\":1,\"left\":0.5,\"right\":1,\"top\":0,\"width\":0.5},\"depth\":1,\"paneId\":\"pane-c6ebb467-2b2e-430a-aa29-e89026e33680\",\"path\":\"root/1\"}],\"splitCount\":1,\"splits\":[{\"bounds\":{\"bottom\":1,\"height\":1,\"left\":0,\"right\":1,\"top\":0,\"width\":1},\"depth\":0,\"direction\":\"vertical\",\"firstChildBounds\":{\"bottom\":1,\"height\":1,\"left\":0,\"right\":0.5,\"top\":0,\"width\":0.5},\"firstChildPath\":\"root/0\",\"firstChildSpan\":1,\"path\":\"root\",\"ratio\":0.5,\"secondChildBounds\":{\"bottom\":1,\"height\":1,\"left\":0.5,\"right\":1,\"top\":0,\"width\":0.5},\"secondChildPath\":\"root/1\",\"secondChildSpan\":1,\"spanCount\":2,\"splitId\":\"split-9ea891c3-350e-4a44-9c9e-bf0e7c5711ea\"}]},\"layoutTree\":{\"children\":[{\"paneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"type\":\"pane\"},{\"paneId\":\"pane-c6ebb467-2b2e-430a-aa29-e89026e33680\",\"type\":\"pane\"}],\"direction\":\"vertical\",\"ratio\":0.5,\"ratioMode\":\"automatic\",\"splitId\":\"split-9ea891c3-350e-4a44-9c9e-bf0e7c5711ea\",\"type\":\"split\"},\"panes\":[{\"kind\":\"agent\",\"paneId\":\"pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"runtimeId\":\"10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"sessionId\":\"10f9c9bf-8506-433c-abbc-727cf2aa99d4\",\"title\":\"linux-shortcuts-linux-shortcuts-2026-09-01T21-57-28-577Z\"},{\"kind\":\"agent\",\"paneId\":\"pane-c6ebb467-2b2e-430a-aa29-e89026e33680\",\"runtimeId\":\"c6ebb467-2b2e-430a-aa29-e89026e33680\",\"sessionId\":\"c6ebb467-2b2e-430a-aa29-e89026e33680\",\"title\":\"shell 2\"}],\"sessionPaneCount\":2},\"workspaceId\":\"workspace-10f9c9bf-8506-433c-abbc-727cf2aa99d4\"}",
+      "details": null,
+      "at": "2026-09-01T21:57:36.897Z"
+    },
+    {
+      "ok": true,
+      "message": "Missing cheat sheet screenshot: /tmp/attn-real-app-harness/linux-shortcuts-2026-09-01T21-57-28-577Z/linux-shortcuts-cheatsheet.png",
+      "details": null,
+      "at": "2026-09-01T21:57:40.632Z"
+    }
+  ],
+  "headlessTasks": "off",
+  "sessionId": "10f9c9bf-8506-433c-abbc-727cf2aa99d4",
+  "primaryPaneId": "pane-10f9c9bf-8506-433c-abbc-727cf2aa99d4",
+  "closedPaneId": "pane-c6ebb467-2b2e-430a-aa29-e89026e33680",
+  "screenshotPath": "/tmp/attn-real-app-harness/linux-shortcuts-2026-09-01T21-57-28-577Z/linux-shortcuts-cheatsheet.png"
+}
