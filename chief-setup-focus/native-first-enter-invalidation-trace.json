@@ -1,0 +1,507 @@
+{
+  "chief": {
+    "member": "m-7399ac",
+    "phase": "unconfigured",
+    "present": true,
+    "sessionId": null,
+    "setupOpen": true,
+    "shownAgentId": "01e3f13f-37c4-4562-993a-9bf6bbef997b"
+  },
+  "focus": {
+    "chiefFocusTrace": [
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 337,
+        "detail": {
+          "action": "initial-state-invalidation"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 399,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "pending": null,
+          "step": "harness"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 606,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": null,
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-call"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "DIV"
+        },
+        "at": 615,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": null,
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focusin"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "DIV"
+        },
+        "at": 616,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": null,
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-return"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "DIV"
+        },
+        "at": 668,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "pending": null,
+          "step": "harness"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "DIV"
+        },
+        "at": 682,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "catalog": [
+            "/mock-agent-1"
+          ],
+          "pending": null,
+          "step": "harness"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "DIV"
+        },
+        "at": 16079,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-call"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 16079,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": null,
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focusout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": "textbox",
+          "tag": "DIV"
+        },
+        "at": 16079,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focusin"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": "textbox",
+          "tag": "DIV"
+        },
+        "at": 16079,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-return"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": "textbox",
+          "tag": "DIV"
+        },
+        "at": 16129.000000000002,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-call"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": "textbox",
+          "tag": "DIV"
+        },
+        "at": 16129.000000000002,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-return"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": "textbox",
+          "tag": "DIV"
+        },
+        "at": 17010,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfClaude Code1"
+          }
+        },
+        "models": [],
+        "type": "pointerdown"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17012,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focusout"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfClaude Code1"
+        },
+        "at": 17012,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfClaude Code1"
+          }
+        },
+        "models": [],
+        "type": "focusin"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfClaude Code1"
+        },
+        "at": 17014,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfClaude Code1"
+          }
+        },
+        "models": [],
+        "type": "pointerup"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfClaude Code1"
+        },
+        "at": 17014,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfClaude Code1"
+          }
+        },
+        "models": [],
+        "type": "click"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfClaude Code1"
+        },
+        "at": 17419,
+        "detail": {
+          "action": "plugins-invalidation",
+          "after": "[[\"attn-pi\",\"/home/victor/.local/share/attn-linux-ca4dd29212/resources/plugins/attn-pi\",null,\"0.2.0\",\"installed\",true,\"bundled\",\"connected\",\"healthy\"]]",
+          "before": "[]"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17427,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "pending": null,
+          "step": "harness"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17428,
+        "detail": [
+          {
+            "checked": null,
+            "connected": false,
+            "role": "radiogroup",
+            "tag": "DIV"
+          }
+        ],
+        "models": [],
+        "type": "removed"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17429.000000000004,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "pending": null,
+          "step": "harness"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17432,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "catalog": [
+            "/mock-agent-1"
+          ],
+          "pending": null,
+          "step": "harness"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17623,
+        "detail": {
+          "key": "Enter",
+          "prevented": false,
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": null,
+            "tag": "BODY"
+          }
+        },
+        "models": [],
+        "type": "keydown"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17627,
+        "detail": {
+          "key": "Enter",
+          "prevented": false,
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": null,
+            "tag": "BODY"
+          }
+        },
+        "models": [],
+        "type": "keyup"
+      }
+    ],
+    "className": "",
+    "matches": false,
+    "selectionStart": null,
+    "tag": "BODY",
+    "testId": null,
+    "valueLength": null
+  },
+  "setup": {
+    "text": "Set up your chief\u00d7\u25cfClaude Code1\u25cbCodex2Continue \u23ce"
+  },
+  "menu": {
+    "error": "Error: Automation request failed: dom_text (ui-automation-client-1792095387503-75eeffa7ba4ad8): dom_text selector not found in DOM: [role=\"menu\"]"
+  }
+}

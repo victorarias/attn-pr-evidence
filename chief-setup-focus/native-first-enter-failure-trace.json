@@ -1,0 +1,678 @@
+{
+  "chief": {
+    "member": "m-a8530b",
+    "phase": "unconfigured",
+    "present": true,
+    "sessionId": null,
+    "setupOpen": true,
+    "shownAgentId": "f15d2b45-ed30-452b-a7c2-23f32e613c88"
+  },
+  "focus": {
+    "chiefFocusTrace": [
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 395,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "pending": null,
+          "step": "harness"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 614,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": null,
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-call"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "DIV"
+        },
+        "at": 624,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": null,
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focusin"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "DIV"
+        },
+        "at": 625,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": null,
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-return"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "DIV"
+        },
+        "at": 677,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "pending": null,
+          "step": "harness"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "DIV"
+        },
+        "at": 691.0000000000001,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "catalog": [
+            "/mock-agent-1"
+          ],
+          "pending": null,
+          "step": "harness"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "DIV"
+        },
+        "at": 16078,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-call"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 16079,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": null,
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focusout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": "textbox",
+          "tag": "DIV"
+        },
+        "at": 16079,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focusin"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": "textbox",
+          "tag": "DIV"
+        },
+        "at": 16079,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-return"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": "textbox",
+          "tag": "DIV"
+        },
+        "at": 16132.000000000002,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-call"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": "textbox",
+          "tag": "DIV"
+        },
+        "at": 16132.000000000002,
+        "detail": {
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focus-return"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": "textbox",
+          "tag": "DIV"
+        },
+        "at": 17010,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfClaude Code1"
+          }
+        },
+        "models": [],
+        "type": "pointerdown"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17012,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": null,
+            "connected": true,
+            "role": "textbox",
+            "tag": "DIV"
+          }
+        },
+        "models": [],
+        "type": "focusout"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfClaude Code1"
+        },
+        "at": 17012,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfClaude Code1"
+          }
+        },
+        "models": [],
+        "type": "focusin"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfClaude Code1"
+        },
+        "at": 17012,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfClaude Code1"
+          }
+        },
+        "models": [],
+        "type": "pointerup"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfClaude Code1"
+        },
+        "at": 17012,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfClaude Code1"
+          }
+        },
+        "models": [],
+        "type": "click"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfClaude Code1"
+        },
+        "at": 17621,
+        "detail": {
+          "key": "Enter",
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfClaude Code1"
+          }
+        },
+        "models": [],
+        "type": "keydown"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17625,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "catalog": [
+            "/mock-agent-1"
+          ],
+          "pending": "step",
+          "step": "model"
+        },
+        "models": [
+          {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        ],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17625,
+        "detail": {
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        },
+        "models": [
+          {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        ],
+        "type": "focus-call"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfMock agent 1recommended1"
+        },
+        "at": 17625,
+        "detail": {
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        },
+        "models": [
+          {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        ],
+        "type": "focusin"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfMock agent 1recommended1"
+        },
+        "at": 17625,
+        "detail": {
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        },
+        "models": [
+          {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        ],
+        "type": "focus-return"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfMock agent 1recommended1"
+        },
+        "at": 17625,
+        "detail": {
+          "action": "focused",
+          "matched": true,
+          "text": "\u25cfMock agent 1recommended1"
+        },
+        "models": [
+          {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        ],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfMock agent 1recommended1"
+        },
+        "at": 17626,
+        "detail": [
+          {
+            "checked": "true",
+            "connected": false,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfClaude Code1"
+          },
+          {
+            "checked": "false",
+            "connected": false,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cbCodex2"
+          }
+        ],
+        "models": [
+          {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        ],
+        "type": "removed"
+      },
+      {
+        "active": {
+          "checked": "true",
+          "connected": true,
+          "role": "radio",
+          "tag": "BUTTON",
+          "text": "\u25cfMock agent 1recommended1"
+        },
+        "at": 17628,
+        "detail": {
+          "key": "Enter",
+          "prevented": false,
+          "target": {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        },
+        "models": [
+          {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        ],
+        "type": "keyup"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17743.000000000004,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "pending": null,
+          "step": "model"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17745,
+        "detail": [
+          {
+            "checked": null,
+            "connected": false,
+            "role": "radiogroup",
+            "tag": "DIV"
+          },
+          {
+            "checked": null,
+            "connected": false,
+            "role": "radiogroup",
+            "tag": "DIV"
+          }
+        ],
+        "models": [],
+        "type": "removed"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17745,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "pending": null,
+          "step": "model"
+        },
+        "models": [],
+        "type": "layout"
+      },
+      {
+        "active": {
+          "checked": null,
+          "connected": true,
+          "role": null,
+          "tag": "BODY"
+        },
+        "at": 17748,
+        "detail": {
+          "action": "layout",
+          "autoFocus": false,
+          "catalog": [
+            "/mock-agent-1"
+          ],
+          "pending": null,
+          "step": "model"
+        },
+        "models": [
+          {
+            "checked": "true",
+            "connected": true,
+            "role": "radio",
+            "tag": "BUTTON",
+            "text": "\u25cfMock agent 1recommended1"
+          }
+        ],
+        "type": "layout"
+      }
+    ],
+    "className": "",
+    "matches": false,
+    "selectionStart": null,
+    "tag": "BODY",
+    "testId": null,
+    "valueLength": null
+  },
+  "setup": {
+    "text": "Set up your chief\u00d7Claude Codechange\u25cfMock agent 1recommended1lowmediumhighWake Chief\u23ce"
+  },
+  "menu": {
+    "error": "Error: Automation request failed: dom_text (ui-automation-client-1792095004151-9cce574396f008): dom_text selector not found in DOM: [role=\"menu\"]"
+  }
+}
