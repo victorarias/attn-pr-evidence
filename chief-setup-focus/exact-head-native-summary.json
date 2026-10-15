@@ -1,0 +1,127 @@
+{
+  "head": "d6a372ecb39482329afae3dc7c69ddf6367d3231",
+  "base": "1064df15d56ec4275b6c28cada4f518a50e45a7b",
+  "summary": {
+    "ok": true,
+    "scenarioId": "CHIEF-SLOT",
+    "tier": "local",
+    "runId": "chief-slot-2026-10-15T21-11-15-765Z",
+    "runDir": "/home/victor/.local/share/attn-linux-runner/ca4dd29212/artifacts/chief-slot-2026-10-15T21-11-15-765Z",
+    "sessionDir": "/tmp/attn-real-app-sessions/chief-slot-2026-10-15T21-11-15-765Z",
+    "metadata": {},
+    "steps": [
+      {
+        "name": "fresh_profile",
+        "startedAt": "2026-10-15T21:11:15.860Z",
+        "endedAt": "2026-10-15T21:11:56.231Z",
+        "durationMs": 40371,
+        "status": "ok",
+        "details": null
+      },
+      {
+        "name": "restored_live_terminal_keeps_focus_with_automatic_setup",
+        "startedAt": "2026-10-15T21:11:56.231Z",
+        "endedAt": "2026-10-15T21:12:13.765Z",
+        "durationMs": 17534,
+        "status": "ok",
+        "details": null
+      },
+      {
+        "name": "two_enters_wake_and_focus",
+        "startedAt": "2026-10-15T21:12:13.765Z",
+        "endedAt": "2026-10-15T21:12:16.057Z",
+        "durationMs": 2292,
+        "status": "ok",
+        "details": null
+      },
+      {
+        "name": "configured_escape_and_save_return_row_focus",
+        "startedAt": "2026-10-15T21:12:16.057Z",
+        "endedAt": "2026-10-15T21:12:23.807Z",
+        "durationMs": 7750,
+        "status": "ok",
+        "details": null
+      },
+      {
+        "name": "sleep_and_one_click_wake",
+        "startedAt": "2026-10-15T21:12:23.807Z",
+        "endedAt": "2026-10-15T21:12:41.284Z",
+        "durationMs": 17477,
+        "status": "ok",
+        "details": null
+      }
+    ],
+    "assertions": [
+      {
+        "ok": true,
+        "message": "a new profile has an unconfigured chief",
+        "details": {
+          "chief": {
+            "awareness_dirs": [],
+            "charter_path": "/home/victor/.attn-linux-ca4dd29212/crew/profile-36ba184c-a6c9-4423-b695-0f6c6c175df5/m-63bc64/CHARTER.md",
+            "chief": true,
+            "home_dir": "/home/victor/.attn-linux-ca4dd29212/crew/profile-36ba184c-a6c9-4423-b695-0f6c6c175df5/m-63bc64",
+            "key": "m-63bc64",
+            "launch_desktop": {
+              "label": "Chief (new)"
+            },
+            "name": "Chief",
+            "profile_id": "profile-36ba184c-a6c9-4423-b695-0f6c6c175df5",
+            "profile_name": "Chief slot chief-slot-2026-10-15T21-11-15-765Z",
+            "retired": false,
+            "revision": 1
+          }
+        },
+        "at": "2026-10-15T21:11:34.732Z"
+      },
+      {
+        "ok": true,
+        "message": "Enter on the model wakes and shows the chief",
+        "details": {
+          "awake": {
+            "member": "m-63bc64",
+            "phase": "awake",
+            "present": true,
+            "sessionId": "63dbc49f-722c-4d82-8101-27f37adc9466",
+            "setupOpen": false,
+            "shownAgentId": "63dbc49f-722c-4d82-8101-27f37adc9466"
+          }
+        },
+        "at": "2026-10-15T21:12:15.920Z"
+      },
+      {
+        "ok": true,
+        "message": "the roster binds the chief to the shown session",
+        "details": null,
+        "at": "2026-10-15T21:12:15.937Z"
+      },
+      {
+        "ok": true,
+        "message": "sleep releases the chief binding",
+        "details": null,
+        "at": "2026-10-15T21:12:35.258Z"
+      },
+      {
+        "ok": true,
+        "message": "one click wakes and shows a new day",
+        "details": {
+          "awake": {
+            "member": "m-63bc64",
+            "phase": "awake",
+            "present": true,
+            "sessionId": "9dd04c0b-74ba-4772-b54a-941400c6b583",
+            "setupOpen": false,
+            "shownAgentId": "9dd04c0b-74ba-4772-b54a-941400c6b583"
+          },
+          "firstDay": "63dbc49f-722c-4d82-8101-27f37adc9466"
+        },
+        "at": "2026-10-15T21:12:41.170Z"
+      }
+    ],
+    "headlessTasks": "off",
+    "mockGitHub": "http://127.0.0.1:32302",
+    "profile": "profile-36ba184c-a6c9-4423-b695-0f6c6c175df5",
+    "chief": "m-63bc64",
+    "firstDay": "63dbc49f-722c-4d82-8101-27f37adc9466"
+  }
+}
