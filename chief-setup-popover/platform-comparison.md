@@ -14,6 +14,6 @@ The chosen change preserves the popup's focus behavior and removes the effect us
 
 These probes test Tab from Wake, the final control. They do not explain the earlier CI Notebook-to-Wake timeout. The full packaged acceptance suite subsequently passed.
 
-[Browser results](platform-results.json) contain only engine names, control identifiers, focus state and visibility. Raw scripts and native logs remain on the task seed.
+[Browser results](platform-results.json) contain only engine names, control identifiers, focus state and visibility. The [browser probe](chief-platform-probe.mjs), [GTK probe](chief-gtk-focus-probe.py) and [native-key log](chief-gtk-focus-probe.log) are published here and attached to the task seed.
 
 Sources: [HTML dialog](https://html.spec.whatwg.org/multipage/interactive-elements.html#the-dialog-element), [HTML popover](https://html.spec.whatwg.org/multipage/popover.html), [React state adjustment](https://react.dev/learn/you-might-not-need-an-effect#adjusting-some-state-when-a-prop-changes).

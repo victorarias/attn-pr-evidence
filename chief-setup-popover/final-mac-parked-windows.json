@@ -1,0 +1,32 @@
+{
+  "parked-window-configured.json": {
+    "logicalBounds": {
+      "height": 800,
+      "width": 1200,
+      "x": 1690,
+      "y": 156
+    },
+    "minimized": false,
+    "scaleFactor": 2
+  },
+  "parked-window-restored.json": {
+    "logicalBounds": {
+      "height": 800,
+      "width": 1200,
+      "x": 1690,
+      "y": 156
+    },
+    "minimized": false,
+    "scaleFactor": 2
+  },
+  "parked-window-first-launch.json": {
+    "logicalBounds": {
+      "height": 800,
+      "width": 1200,
+      "x": 1690,
+      "y": 156
+    },
+    "minimized": false,
+    "scaleFactor": 2
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "scenarioId": "CHIEF-SLOT",
+  "runId": "chief-slot-2026-10-18T22-27-17-276Z",
+  "failureCount": 0,
+  "firstFailure": null,
+  "artifactsDir": "/home/victor/.local/share/attn-linux-runner/8c140d028b/artifacts/chief-slot-2026-10-18T22-27-17-276Z",
+  "summaryPath": "/home/victor/.local/share/attn-linux-runner/8c140d028b/artifacts/chief-slot-2026-10-18T22-27-17-276Z/summary.json",
+  "durationMs": 94340
+}

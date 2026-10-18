@@ -1,0 +1,195 @@
+[harness-instance] instance 'chief-popover': dropped inherited routing overrides from every child environment: ATTN_DATA_DIR, ATTN_WS_PORT, ATTN_SOCKET_PATH, ATTN_DB_PATH, ATTN_CONFIG_PATH, ATTN_PLUGIN_DIR, ATTN_TERMINAL_ID, ATTN_SESSION_ID
+[agent-tripwire] armed for CHIEF-SLOT: claude, codex, copilot, pi — ledger /var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-harness/chief-slot-2026-10-18T22-35-43-855Z/agent-tripwire.ledger
+[agent-tripwire] claude, codex run the mock agent for CHIEF-SLOT: /Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/mockAgent.mjs
+[agent-tripwire] ATTN_HEADLESS_TASKS=off for CHIEF-SLOT: the daemon refuses narration, classification and every other headless task.
+[mock-github] reusing http://127.0.0.1:32066 as mock.github.local (pid 53318, identity 54e52cea0b0185b3)
+[agent-tripwire] daemon pid 35286 predates this run's mock GitHub — stopping it so the app relaunch brings one up armed.
+[2026-10-18T22:35:45.014Z] step:start fresh_profile
+[chief-diagnostic] quit requested undefined Error
+    at UiAutomationClient.quitApp (file:///private/tmp/chief-native-owned-run.mjs:7:70)
+    at UiAutomationClient.launchFreshApp (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/uiAutomationClient.mjs:234:16)
+    at launchFreshAppAndConnect (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/common.mjs:307:16)
+    at file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenario-chief-slot.mjs:76:11
+    at Object.step (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenarioRunner.mjs:492:30)
+    at file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenario-chief-slot.mjs:75:16
+    at ModuleJob.run (node:internal/modules/esm/module_job:569:25)
+    at async node:internal/modules/esm/loader:650:26
+    at async file:///private/tmp/chief-native-owned-run.mjs:10:1
+[RealAppHarness] Parked window: screen=1710x1112 win=1200x800 from=1690,156 to=1690,156
+[harness] pinned codex_executable at the mock agent (was unconfigured)
+[harness] pinned claude_executable at the mock agent (was unconfigured)
+[attn instance=chief-popover socket=~/.attn-chief-popover/attn.sock port=27587]
+[2026-10-18T22:36:04.766Z] assert:ok {"message":"a new profile has an unconfigured chief","details":{"chief":{"awareness_dirs":[],"charter_path":"","chief":true,"home_dir":"","key":"m-479853","launch_desktop":{"label":"Chief (new)"},"name":"Chief","profile_id":"profile-482935ae-0f99-485b-aca6-da0f821f2b51","profile_name":"Chief slot chief-slot-2026-10-18T22-35-43-855Z","retired":false,"revision":1}}}
+[2026-10-18T22:36:05.025Z] assert:ok {"message":"first-run setup fits without clipping or scrollbars","details":{"bounds":{"height":216,"width":250,"x":265,"y":220},"clientHeight":216,"clientWidth":250,"panel":null,"scrollHeight":216,"scrollWidth":250}}
+[2026-10-18T22:36:07.895Z] step:ok fresh_profile {"durationMs":22881}
+[2026-10-18T22:36:07.895Z] step:start no_harness_recheck
+[attn instance=chief-popover socket=~/.attn-chief-popover/attn.sock port=27587]
+[attn instance=chief-popover socket=~/.attn-chief-popover/attn.sock port=27587]
+[attn instance=chief-popover socket=~/.attn-chief-popover/attn.sock port=27587]
+[attn instance=chief-popover socket=~/.attn-chief-popover/attn.sock port=27587]
+[2026-10-18T22:36:10.743Z] step:ok no_harness_recheck {"durationMs":2848}
+[2026-10-18T22:36:10.743Z] step:start restored_live_terminal_keeps_setup_closed
+[chief-diagnostic] quit requested 35635 Error
+    at UiAutomationClient.quitApp (file:///private/tmp/chief-native-owned-run.mjs:7:70)
+    at relaunchAppAndConnect (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/common.mjs:340:16)
+    at file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenario-chief-slot.mjs:148:11
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.step (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenarioRunner.mjs:492:24)
+    at async file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenario-chief-slot.mjs:141:3
+[chief-diagnostic] quit requested undefined Error
+    at UiAutomationClient.quitApp (file:///private/tmp/chief-native-owned-run.mjs:7:70)
+    at UiAutomationClient.launchFreshApp (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/uiAutomationClient.mjs:234:16)
+    at launchFreshAppAndConnect (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/common.mjs:307:16)
+    at relaunchAppAndConnect (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/common.mjs:343:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenario-chief-slot.mjs:148:5
+    at async Object.step (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenarioRunner.mjs:492:24)
+    at async file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenario-chief-slot.mjs:141:3
+[RealAppHarness] Parked window: screen=1710x1112 win=1200x800 from=1690,156 to=1690,156
+[2026-10-18T22:36:16.024Z] step:ok restored_live_terminal_keeps_setup_closed {"durationMs":5280}
+[2026-10-18T22:36:16.024Z] step:start enter_wakes_and_focuses
+[attn instance=chief-popover socket=~/.attn-chief-popover/attn.sock port=27587]
+[2026-10-18T22:36:18.977Z] assert:ok {"message":"the folder is prefilled with the profile Notebook","details":{"defaultFolder":"~/attn-notebook-chief-popover-chief-slot-chief-slot-2026-10-18t22-35-43-855z"}}
+[2026-10-18T22:36:40.957Z] step:error enter_wakes_and_focuses {"durationMs":24932,"error":"Error: Automation request failed: dom_wait (ui-automation-client-1792362985913-248a681a0a5cd): dom_wait timeoutMs=15000 exceeded: selector=[data-testid=\"chief-slot\"][data-chief-phase=\"awake\"], absent=false, textIncludes=undefined, focused=false\n    at Socket.<anonymous> (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/uiAutomationClient.mjs:366:20)\n    at Socket.emit (node:events:514:20)\n    at addChunk (node:internal/streams/readable:575:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:526:3)\n    at Readable.push (node:internal/streams/readable:406:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)"}
+Error: Automation request failed: dom_wait (ui-automation-client-1792362985913-248a681a0a5cd): dom_wait timeoutMs=15000 exceeded: selector=[data-testid="chief-slot"][data-chief-phase="awake"], absent=false, textIncludes=undefined, focused=false
+    at Socket.<anonymous> (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/uiAutomationClient.mjs:366:20)
+    at Socket.emit (node:events:514:20)
+    at addChunk (node:internal/streams/readable:575:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:526:3)
+    at Readable.push (node:internal/streams/readable:406:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+[harness] restored claude_executable=unconfigured
+[harness] restored codex_executable=unconfigured
+[harness] restored queue_mode_enabled=false
+[harness] restored model_tier_overrides=unconfigured
+[2026-10-18T22:36:42.449Z] settings:restored {"count":4}
+[2026-10-18T22:36:42.449Z] cleanup:start {"reason":"finish","count":3}
+[2026-10-18T22:36:42.450Z] cleanup:run {"reason":"finish","name":"restore_profile"}
+[attn instance=chief-popover socket=~/.attn-chief-popover/attn.sock port=27587]
+[2026-10-18T22:36:42.986Z] cleanup:ok {"reason":"finish","name":"restore_profile"}
+[2026-10-18T22:36:42.987Z] cleanup:run {"reason":"finish","name":"quit_app"}
+[chief-diagnostic] quit requested 37688 Error
+    at UiAutomationClient.quitApp (file:///private/tmp/chief-native-owned-run.mjs:7:70)
+    at Object.fn (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenario-chief-slot.mjs:57:49)
+    at file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenarioRunner.mjs:370:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:104:5)
+    at async Object.finishFailure (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenarioRunner.mjs:609:30)
+    at async file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/scenario-chief-slot.mjs:298:32
+[2026-10-18T22:36:43.443Z] cleanup:ok {"reason":"finish","name":"quit_app"}
+[2026-10-18T22:36:43.443Z] cleanup:run {"reason":"finish","name":"close_observer"}
+[2026-10-18T22:36:43.444Z] cleanup:ok {"reason":"finish","name":"close_observer"}
+[2026-10-18T22:36:43.444Z] cleanup:done {"reason":"finish"}
+--- failure digest ---
+scenario: CHIEF-SLOT
+run: chief-slot-2026-10-18T22-35-43-855Z
+failing step: enter_wakes_and_focuses
+error:
+Error: Automation request failed: dom_wait (ui-automation-client-1792362985913-248a681a0a5cd): dom_wait timeoutMs=15000 exceeded: selector=[data-testid="chief-slot"][data-chief-phase="awake"], absent=false, textIncludes=undefined, focused=false
+    at Socket.<anonymous> (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/uiAutomationClient.mjs:366:20)
+    at Socket.emit (node:events:514:20)
+    at addChunk (node:internal/streams/readable:575:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:526:3)
+    at Readable.push (node:internal/streams/readable:406:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+artifacts: /var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-harness/chief-slot-2026-10-18T22-35-43-855Z
+--- end digest ---
+ATTN_VERDICT {"ok":false,"scenarioId":"CHIEF-SLOT","runId":"chief-slot-2026-10-18T22-35-43-855Z","failureCount":1,"firstFailure":"Automation request failed: dom_wait (ui-automation-client-1792362985913-248a681a0a5cd): dom_wait timeoutMs=15000 exceeded: selector=[data-testid=\"chief-slot\"][data-chief-phase=\"awake\"], absent=false, textIncludes=undefined, focused=false","artifactsDir":"/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-harness/chief-slot-2026-10-18T22-35-43-855Z","summaryPath":"/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-harness/chief-slot-2026-10-18T22-35-43-855Z/failure.json","durationMs":59931}
+{
+  "ok": false,
+  "scenarioId": "CHIEF-SLOT",
+  "tier": "local",
+  "runId": "chief-slot-2026-10-18T22-35-43-855Z",
+  "runDir": "/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-harness/chief-slot-2026-10-18T22-35-43-855Z",
+  "sessionDir": "/private/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-sessions/chief-slot-2026-10-18T22-35-43-855Z",
+  "metadata": {},
+  "steps": [
+    {
+      "name": "fresh_profile",
+      "startedAt": "2026-10-18T22:35:45.014Z",
+      "endedAt": "2026-10-18T22:36:07.895Z",
+      "durationMs": 22881,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "no_harness_recheck",
+      "startedAt": "2026-10-18T22:36:07.895Z",
+      "endedAt": "2026-10-18T22:36:10.743Z",
+      "durationMs": 2848,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "restored_live_terminal_keeps_setup_closed",
+      "startedAt": "2026-10-18T22:36:10.743Z",
+      "endedAt": "2026-10-18T22:36:16.023Z",
+      "durationMs": 5280,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "enter_wakes_and_focuses",
+      "startedAt": "2026-10-18T22:36:16.024Z",
+      "endedAt": "2026-10-18T22:36:40.956Z",
+      "durationMs": 24932,
+      "status": "error",
+      "details": null,
+      "error": "Error: Automation request failed: dom_wait (ui-automation-client-1792362985913-248a681a0a5cd): dom_wait timeoutMs=15000 exceeded: selector=[data-testid=\"chief-slot\"][data-chief-phase=\"awake\"], absent=false, textIncludes=undefined, focused=false\n    at Socket.<anonymous> (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/uiAutomationClient.mjs:366:20)\n    at Socket.emit (node:events:514:20)\n    at addChunk (node:internal/streams/readable:575:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:526:3)\n    at Readable.push (node:internal/streams/readable:406:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)"
+    }
+  ],
+  "assertions": [
+    {
+      "ok": true,
+      "message": "a new profile has an unconfigured chief",
+      "details": {
+        "chief": {
+          "awareness_dirs": [],
+          "charter_path": "",
+          "chief": true,
+          "home_dir": "",
+          "key": "m-479853",
+          "launch_desktop": {
+            "label": "Chief (new)"
+          },
+          "name": "Chief",
+          "profile_id": "profile-482935ae-0f99-485b-aca6-da0f821f2b51",
+          "profile_name": "Chief slot chief-slot-2026-10-18T22-35-43-855Z",
+          "retired": false,
+          "revision": 1
+        }
+      },
+      "at": "2026-10-18T22:36:04.766Z"
+    },
+    {
+      "ok": true,
+      "message": "first-run setup fits without clipping or scrollbars",
+      "details": {
+        "bounds": {
+          "height": 216,
+          "width": 250,
+          "x": 265,
+          "y": 220
+        },
+        "clientHeight": 216,
+        "clientWidth": 250,
+        "panel": null,
+        "scrollHeight": 216,
+        "scrollWidth": 250
+      },
+      "at": "2026-10-18T22:36:05.025Z"
+    },
+    {
+      "ok": true,
+      "message": "the folder is prefilled with the profile Notebook",
+      "details": {
+        "defaultFolder": "~/attn-notebook-chief-popover-chief-slot-chief-slot-2026-10-18t22-35-43-855z"
+      },
+      "at": "2026-10-18T22:36:18.977Z"
+    }
+  ],
+  "error": "Error: Automation request failed: dom_wait (ui-automation-client-1792362985913-248a681a0a5cd): dom_wait timeoutMs=15000 exceeded: selector=[data-testid=\"chief-slot\"][data-chief-phase=\"awake\"], absent=false, textIncludes=undefined, focused=false\n    at Socket.<anonymous> (file:///Users/victor/projects/victor/attn--feat-chief-setup-popover/app/scripts/real-app-harness/uiAutomationClient.mjs:366:20)\n    at Socket.emit (node:events:514:20)\n    at addChunk (node:internal/streams/readable:575:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:526:3)\n    at Readable.push (node:internal/streams/readable:406:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)",
+  "headlessTasks": "off",
+  "mockGitHub": "http://127.0.0.1:32066",
+  "profile": "profile-482935ae-0f99-485b-aca6-da0f821f2b51",
+  "chief": "m-479853"
+}
