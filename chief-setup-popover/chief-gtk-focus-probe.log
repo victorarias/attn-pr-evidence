@@ -1,0 +1,36 @@
+PROBE_PID 107964
+libEGL warning: DRI3 error: Could not get DRI3 device
+libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+/tmp/chief-gtk-focus-probe.py:19: DeprecationWarning: WebKit2.WebView.run_javascript is deprecated
+  v.run_javascript("document.querySelector('#open').focus();document.addEventListener('keyup',e=>{if(['Shift','Control','Meta','Alt'].includes(e.key))return;setTimeout(()=>window.webkit.messageHandlers.receipt.postMessage(JSON.stringify(window.state())),0);});",None,focused,None)
+{"kind": "div", "step": "open", "state": {"active": "wake", "open": true, "documentFocused": true}}
+{"kind": "div", "step": "forwardTab", "state": {"active": "BODY", "open": true, "documentFocused": false}}
+{"kind": "div", "step": "reverseTab", "state": {"active": "wake", "open": true, "documentFocused": true}}
+{"kind": "div", "step": "escape", "state": {"active": "wake", "open": true, "documentFocused": true}}
+PROBE_PID 108086
+libEGL warning: DRI3 error: Could not get DRI3 device
+libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+/tmp/chief-gtk-focus-probe.py:19: DeprecationWarning: WebKit2.WebView.run_javascript is deprecated
+  v.run_javascript("document.querySelector('#open').focus();document.addEventListener('keyup',e=>{if(['Shift','Control','Meta','Alt'].includes(e.key))return;setTimeout(()=>window.webkit.messageHandlers.receipt.postMessage(JSON.stringify(window.state())),0);});",None,focused,None)
+{"kind": "dialog", "step": "open", "state": {"active": "wake", "open": true, "documentFocused": true}}
+{"kind": "dialog", "step": "forwardTab", "state": {"active": "BODY", "open": true, "documentFocused": false}}
+{"kind": "dialog", "step": "reverseTab", "state": {"active": "wake", "open": true, "documentFocused": true}}
+{"kind": "dialog", "step": "escape", "state": {"active": "wake", "open": true, "documentFocused": true}}
+PROBE_PID 108208
+libEGL warning: DRI3 error: Could not get DRI3 device
+libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+/tmp/chief-gtk-focus-probe.py:19: DeprecationWarning: WebKit2.WebView.run_javascript is deprecated
+  v.run_javascript("document.querySelector('#open').focus();document.addEventListener('keyup',e=>{if(['Shift','Control','Meta','Alt'].includes(e.key))return;setTimeout(()=>window.webkit.messageHandlers.receipt.postMessage(JSON.stringify(window.state())),0);});",None,focused,None)
+{"kind": "popover", "step": "open", "state": {"active": "wake", "open": true, "documentFocused": true}}
+{"kind": "popover", "step": "forwardTab", "state": {"active": "terminal", "open": true, "documentFocused": true}}
+{"kind": "popover", "step": "reverseTab", "state": {"active": "wake", "open": true, "documentFocused": true}}
+{"kind": "popover", "step": "escape", "state": {"active": "open", "open": false, "documentFocused": true}}
+PROBE_PID 108330
+libEGL warning: DRI3 error: Could not get DRI3 device
+libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+/tmp/chief-gtk-focus-probe.py:19: DeprecationWarning: WebKit2.WebView.run_javascript is deprecated
+  v.run_javascript("document.querySelector('#open').focus();document.addEventListener('keyup',e=>{if(['Shift','Control','Meta','Alt'].includes(e.key))return;setTimeout(()=>window.webkit.messageHandlers.receipt.postMessage(JSON.stringify(window.state())),0);});",None,focused,None)
+{"kind": "modal", "step": "open", "state": {"active": "wake", "open": true, "documentFocused": true}}
+{"kind": "modal", "step": "forwardTab", "state": {"active": "BODY", "open": true, "documentFocused": false}}
+{"kind": "modal", "step": "reverseTab", "state": {"active": "wake", "open": true, "documentFocused": true}}
+{"kind": "modal", "step": "escape", "state": {"active": "open", "open": false, "documentFocused": true}}
