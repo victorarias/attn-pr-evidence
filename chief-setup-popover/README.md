@@ -6,6 +6,7 @@ Native captures for [attn PR #714](https://github.com/SolenesInc/attn/pull/714),
 | --- | --- | --- |
 | First run | chief-slot-2026-10-18T20-41-30-235Z | 97e61618d |
 | Agents running, setup closed | chief-slot-2026-10-18T20-23-39-677Z | bad381954 |
+| Waking | chief-slot-2026-10-18T20-52-34-000Z | 9d18c7f9a |
 | Save error | chief-slot-2026-10-18T20-23-39-677Z | bad381954 |
 | No harness | chief-slot-2026-10-18T20-23-39-677Z | bad381954 |
 
