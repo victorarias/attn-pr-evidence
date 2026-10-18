@@ -1,0 +1,17 @@
+{
+  "state": {
+    "member": "m-2d4166",
+    "phase": "awake",
+    "present": true,
+    "sessionId": "448369b4-7087-46c8-abbd-a039264eaccd",
+    "setupOpen": false,
+    "shownAgentId": "448369b4-7087-46c8-abbd-a039264eaccd"
+  },
+  "focus": {
+    "className": "queue-row-select",
+    "selectionStart": null,
+    "tag": "BUTTON",
+    "testId": "queue-crew-select-m-2d4166",
+    "valueLength": null
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "state": {
+    "member": "m-2d4166",
+    "phase": "asleep",
+    "present": true,
+    "sessionId": null,
+    "setupOpen": false,
+    "shownAgentId": null
+  },
+  "focus": {
+    "className": "queue-row-select",
+    "selectionStart": null,
+    "tag": "BUTTON",
+    "testId": "queue-crew-select-m-2d4166",
+    "valueLength": null
+  }
+}
