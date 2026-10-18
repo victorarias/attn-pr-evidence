@@ -1,0 +1,424 @@
+[
+  {
+    "engine": "chromium",
+    "kind": "div",
+    "open": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "forwardTab": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": false
+    },
+    "reverseTab": {
+      "active": "folder",
+      "open": true,
+      "documentFocused": true
+    },
+    "escape": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "outsideClick": {
+      "active": "outside",
+      "open": true,
+      "documentFocused": true
+    },
+    "terminalFocus": {
+      "active": "terminal",
+      "open": true,
+      "documentFocused": true
+    },
+    "closeReturn": {
+      "active": "wake",
+      "open": false,
+      "documentFocused": true
+    },
+    "loading": {
+      "active": "open",
+      "open": true,
+      "documentFocused": true
+    },
+    "ready": {
+      "active": "open",
+      "open": true,
+      "documentFocused": true
+    },
+    "catalogReplacement": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    }
+  },
+  {
+    "engine": "chromium",
+    "kind": "dialog",
+    "open": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "forwardTab": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": false
+    },
+    "reverseTab": {
+      "active": "folder",
+      "open": true,
+      "documentFocused": true
+    },
+    "escape": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "outsideClick": {
+      "active": "outside",
+      "open": true,
+      "documentFocused": true
+    },
+    "terminalFocus": {
+      "active": "terminal",
+      "open": true,
+      "documentFocused": true
+    },
+    "closeReturn": {
+      "active": "open",
+      "open": false,
+      "documentFocused": true
+    },
+    "loading": {
+      "active": "close",
+      "open": true,
+      "documentFocused": true
+    },
+    "ready": {
+      "active": "close",
+      "open": true,
+      "documentFocused": true
+    },
+    "catalogReplacement": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    }
+  },
+  {
+    "engine": "chromium",
+    "kind": "popover",
+    "open": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "forwardTab": {
+      "active": "terminal",
+      "open": true,
+      "documentFocused": true
+    },
+    "reverseTab": {
+      "active": "folder",
+      "open": true,
+      "documentFocused": true
+    },
+    "escape": {
+      "active": "open",
+      "open": false,
+      "documentFocused": true
+    },
+    "outsideClick": {
+      "active": "outside",
+      "open": false,
+      "documentFocused": true
+    },
+    "terminalFocus": {
+      "active": "terminal",
+      "open": true,
+      "documentFocused": true
+    },
+    "closeReturn": {
+      "active": "open",
+      "open": false,
+      "documentFocused": true
+    },
+    "loading": {
+      "active": "open",
+      "open": true,
+      "documentFocused": true
+    },
+    "ready": {
+      "active": "open",
+      "open": true,
+      "documentFocused": true
+    },
+    "catalogReplacement": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    }
+  },
+  {
+    "engine": "chromium",
+    "kind": "modal",
+    "open": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "forwardTab": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": false
+    },
+    "reverseTab": {
+      "active": "folder",
+      "open": true,
+      "documentFocused": true
+    },
+    "escape": {
+      "active": "open",
+      "open": false,
+      "documentFocused": true
+    },
+    "terminalFocus": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "closeReturn": {
+      "active": "open",
+      "open": false,
+      "documentFocused": true
+    },
+    "loading": {
+      "active": "close",
+      "open": true,
+      "documentFocused": true
+    },
+    "ready": {
+      "active": "close",
+      "open": true,
+      "documentFocused": true
+    },
+    "catalogReplacement": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    }
+  },
+  {
+    "engine": "webkit",
+    "kind": "div",
+    "open": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "forwardTab": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": false
+    },
+    "reverseTab": {
+      "active": "folder",
+      "open": true,
+      "documentFocused": true
+    },
+    "escape": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "outsideClick": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    },
+    "terminalFocus": {
+      "active": "terminal",
+      "open": true,
+      "documentFocused": true
+    },
+    "closeReturn": {
+      "active": "wake",
+      "open": false,
+      "documentFocused": true
+    },
+    "loading": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    },
+    "ready": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    },
+    "catalogReplacement": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    }
+  },
+  {
+    "engine": "webkit",
+    "kind": "dialog",
+    "open": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "forwardTab": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": false
+    },
+    "reverseTab": {
+      "active": "folder",
+      "open": true,
+      "documentFocused": true
+    },
+    "escape": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "outsideClick": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    },
+    "terminalFocus": {
+      "active": "terminal",
+      "open": true,
+      "documentFocused": true
+    },
+    "closeReturn": {
+      "active": "wake",
+      "open": false,
+      "documentFocused": true
+    },
+    "loading": {
+      "active": "close",
+      "open": true,
+      "documentFocused": true
+    },
+    "ready": {
+      "active": "close",
+      "open": true,
+      "documentFocused": true
+    },
+    "catalogReplacement": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    }
+  },
+  {
+    "engine": "webkit",
+    "kind": "popover",
+    "open": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "forwardTab": {
+      "active": "terminal",
+      "open": true,
+      "documentFocused": true
+    },
+    "reverseTab": {
+      "active": "folder",
+      "open": true,
+      "documentFocused": true
+    },
+    "escape": {
+      "active": "wake",
+      "open": false,
+      "documentFocused": true
+    },
+    "outsideClick": {
+      "active": "BODY",
+      "open": false,
+      "documentFocused": true
+    },
+    "terminalFocus": {
+      "active": "terminal",
+      "open": true,
+      "documentFocused": true
+    },
+    "closeReturn": {
+      "active": "wake",
+      "open": false,
+      "documentFocused": true
+    },
+    "loading": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    },
+    "ready": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    },
+    "catalogReplacement": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    }
+  },
+  {
+    "engine": "webkit",
+    "kind": "modal",
+    "open": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "forwardTab": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": false
+    },
+    "reverseTab": {
+      "active": "folder",
+      "open": true,
+      "documentFocused": true
+    },
+    "escape": {
+      "active": "wake",
+      "open": false,
+      "documentFocused": true
+    },
+    "terminalFocus": {
+      "active": "wake",
+      "open": true,
+      "documentFocused": true
+    },
+    "closeReturn": {
+      "active": "wake",
+      "open": false,
+      "documentFocused": true
+    },
+    "loading": {
+      "active": "close",
+      "open": true,
+      "documentFocused": true
+    },
+    "ready": {
+      "active": "close",
+      "open": true,
+      "documentFocused": true
+    },
+    "catalogReplacement": {
+      "active": "BODY",
+      "open": true,
+      "documentFocused": true
+    }
+  }
+]
