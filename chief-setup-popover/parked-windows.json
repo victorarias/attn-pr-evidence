@@ -1,0 +1,37 @@
+{
+  "first-launch": {
+    "logicalBounds": {
+      "height": 800,
+      "width": 1200,
+      "x": 1690,
+      "y": 156
+    },
+    "minimized": false,
+    "scaleFactor": 2
+  },
+  "restored": {
+    "logicalBounds": {
+      "height": 800,
+      "width": 1200,
+      "x": 1690,
+      "y": 156
+    },
+    "minimized": false,
+    "scaleFactor": 2
+  },
+  "configured": {
+    "logicalBounds": {
+      "height": 800,
+      "width": 1200,
+      "x": 1690,
+      "y": 156
+    },
+    "minimized": false,
+    "scaleFactor": 2
+  },
+  "windowParkLog": [
+    "[RealAppHarness] Parked window: screen=1710x1112 win=1200x800 from=1690,156 to=1690,156",
+    "[RealAppHarness] Parked window: screen=1710x1112 win=1200x800 from=1690,156 to=1690,156",
+    "[RealAppHarness] Parked window: screen=1710x1112 win=1200x800 from=1690,156 to=1690,156"
+  ]
+}

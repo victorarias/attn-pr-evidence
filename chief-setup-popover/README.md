@@ -12,4 +12,4 @@ Native captures for [attn PR #714](https://github.com/SolenesInc/attn/pull/714),
 
 All sessions and pull requests shown are fixtures. The first-run capture was taken with the window parked at x=1690 on a 1710-pixel-wide display. Its width is 1200 pixels, leaving 20 visible and 1180 off-screen. See [window bounds](parked-window.json).
 
-These captures show individual states. Full scenario acceptance is still pending.
+The full native scenario passed at de8e598b2 in 82.909 seconds, including cleanup: [verdict](chief-slot-verdict.json), [summary](chief-slot-summary.json). [All launch bounds](parked-windows.json) stayed parked with 20 logical pixels visible. The scenario covered both sidebar flows, no-harness recovery, folder prefill/error/Enter wake, restored-terminal focus, configured Escape/Save and cold-start command focus, Sleep/one-click Wake, and Notebook charter autosave.
