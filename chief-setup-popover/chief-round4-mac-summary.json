@@ -1,0 +1,217 @@
+{
+  "ok": true,
+  "scenarioId": "CHIEF-SLOT",
+  "tier": "local",
+  "runId": "chief-slot-2026-10-19T18-35-50-788Z",
+  "runDir": "/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-harness/chief-slot-2026-10-19T18-35-50-788Z",
+  "sessionDir": "/private/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-sessions/chief-slot-2026-10-19T18-35-50-788Z",
+  "metadata": {},
+  "steps": [
+    {
+      "name": "fresh_profile",
+      "startedAt": "2026-10-19T18:35:51.133Z",
+      "endedAt": "2026-10-19T18:36:12.010Z",
+      "durationMs": 20877,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "no_harness_recheck",
+      "startedAt": "2026-10-19T18:36:12.010Z",
+      "endedAt": "2026-10-19T18:36:13.943Z",
+      "durationMs": 1933,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "restored_live_terminal_keeps_setup_closed",
+      "startedAt": "2026-10-19T18:36:13.944Z",
+      "endedAt": "2026-10-19T18:36:30.625Z",
+      "durationMs": 16681,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "enter_wakes_and_focuses",
+      "startedAt": "2026-10-19T18:36:30.625Z",
+      "endedAt": "2026-10-19T18:36:35.471Z",
+      "durationMs": 4846,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "configured_escape_and_save_return_row_focus",
+      "startedAt": "2026-10-19T18:36:35.471Z",
+      "endedAt": "2026-10-19T18:36:40.059Z",
+      "durationMs": 4588,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "configured_command_expands_the_sidebar_and_focuses_save",
+      "startedAt": "2026-10-19T18:36:40.059Z",
+      "endedAt": "2026-10-19T18:36:42.242Z",
+      "durationMs": 2183,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "sleep_and_one_click_wake",
+      "startedAt": "2026-10-19T18:36:42.243Z",
+      "endedAt": "2026-10-19T18:36:46.362Z",
+      "durationMs": 4119,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "charter_opens_and_saves_in_the_notebook_editor",
+      "startedAt": "2026-10-19T18:36:46.363Z",
+      "endedAt": "2026-10-19T18:36:50.842Z",
+      "durationMs": 4479,
+      "status": "ok",
+      "details": null
+    }
+  ],
+  "assertions": [
+    {
+      "ok": true,
+      "message": "a new profile has an unconfigured chief",
+      "details": {
+        "chief": {
+          "awareness_dirs": [],
+          "charter_path": "",
+          "chief": true,
+          "home_dir": "",
+          "key": "m-5db0b2",
+          "launch_desktop": {
+            "label": "Chief (new)"
+          },
+          "name": "Chief",
+          "profile_id": "profile-ae8f9bdb-d1d3-452d-b23b-d939bbe419b2",
+          "profile_name": "Chief slot chief-slot-2026-10-19T18-35-50-788Z",
+          "retired": false,
+          "revision": 1
+        }
+      },
+      "at": "2026-10-19T18:36:10.319Z"
+    },
+    {
+      "ok": true,
+      "message": "first-run setup fits without clipping or scrollbars",
+      "details": {
+        "animations": [],
+        "bounds": {
+          "height": 216,
+          "width": 250,
+          "x": 265,
+          "y": 220
+        },
+        "clientHeight": 216,
+        "clientWidth": 250,
+        "panel": null,
+        "scrollHeight": 216,
+        "scrollWidth": 250
+      },
+      "at": "2026-10-19T18:36:10.425Z"
+    },
+    {
+      "ok": true,
+      "message": "the folder is prefilled with the profile Notebook",
+      "details": {
+        "defaultFolder": "~/attn-notebook-chief-popover-chief-slot-chief-slot-2026-10-19t18-35-50-788z"
+      },
+      "at": "2026-10-19T18:36:32.010Z"
+    },
+    {
+      "ok": true,
+      "message": "Enter on Wake accepts the selected route and shows the chief",
+      "details": {
+        "awake": {
+          "member": "m-5db0b2",
+          "phase": "awake",
+          "present": true,
+          "sessionId": "67cddbdc-229b-4540-9601-424e1c2bf4a5",
+          "setupOpen": false,
+          "shownAgentId": "67cddbdc-229b-4540-9601-424e1c2bf4a5"
+        }
+      },
+      "at": "2026-10-19T18:36:35.259Z"
+    },
+    {
+      "ok": true,
+      "message": "the roster binds the chief to the shown session",
+      "details": null,
+      "at": "2026-10-19T18:36:35.270Z"
+    },
+    {
+      "ok": true,
+      "message": "the chief has its final Notebook home and working directory",
+      "details": {
+        "configured": {
+          "agent": "claude",
+          "awareness_dirs": [],
+          "binding_session": "67cddbdc-229b-4540-9601-424e1c2bf4a5",
+          "charter_path": "/private/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-sessions/chief-slot-2026-10-19T18-35-50-788Z/chief-notebook/crew/chief/CHARTER.md",
+          "chief": true,
+          "cwd": "/private/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-sessions/chief-slot-2026-10-19T18-35-50-788Z/chief-notebook",
+          "effort": "low",
+          "home_dir": "/private/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-sessions/chief-slot-2026-10-19T18-35-50-788Z/chief-notebook/crew/chief",
+          "key": "m-5db0b2",
+          "launch_desktop": {
+            "desktop_id": "desktop-bb9c05ad-8ab6-4406-89fb-e485b8c477fb",
+            "label": "Chief (no \u2318 number)"
+          },
+          "model": "mock-agent-1",
+          "name": "Chief",
+          "profile_id": "profile-ae8f9bdb-d1d3-452d-b23b-d939bbe419b2",
+          "profile_name": "Chief slot chief-slot-2026-10-19T18-35-50-788Z",
+          "resolved_agent": "claude",
+          "resolved_effort": "low",
+          "resolved_model": "mock-agent-1",
+          "retired": false,
+          "revision": 3
+        }
+      },
+      "at": "2026-10-19T18:36:35.270Z"
+    },
+    {
+      "ok": true,
+      "message": "setup saves the profile Notebook folder",
+      "details": null,
+      "at": "2026-10-19T18:36:35.324Z"
+    },
+    {
+      "ok": true,
+      "message": "sleep releases the chief binding",
+      "details": null,
+      "at": "2026-10-19T18:36:43.010Z"
+    },
+    {
+      "ok": true,
+      "message": "one click wakes and shows a new day",
+      "details": {
+        "awake": {
+          "member": "m-5db0b2",
+          "phase": "awake",
+          "present": true,
+          "sessionId": "ac2c57af-7a1a-4567-8f72-56e928840488",
+          "setupOpen": false,
+          "shownAgentId": "ac2c57af-7a1a-4567-8f72-56e928840488"
+        },
+        "firstDay": "67cddbdc-229b-4540-9601-424e1c2bf4a5"
+      },
+      "at": "2026-10-19T18:36:46.225Z"
+    },
+    {
+      "ok": true,
+      "message": "the Notebook editor saved the actual crew charter",
+      "details": null,
+      "at": "2026-10-19T18:36:50.451Z"
+    }
+  ],
+  "headlessTasks": "off",
+  "mockGitHub": "http://127.0.0.1:32066",
+  "profile": "profile-ae8f9bdb-d1d3-452d-b23b-d939bbe419b2",
+  "chief": "m-5db0b2",
+  "firstDay": "67cddbdc-229b-4540-9601-424e1c2bf4a5"
+}

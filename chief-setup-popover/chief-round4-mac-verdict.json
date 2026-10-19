@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "scenarioId": "CHIEF-SLOT",
+  "runId": "chief-slot-2026-10-19T18-35-50-788Z",
+  "failureCount": 0,
+  "firstFailure": null,
+  "artifactsDir": "/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-harness/chief-slot-2026-10-19T18-35-50-788Z",
+  "summaryPath": "/var/folders/ct/gz_wgq1s4mj_nmkcw86rcpzm0000gn/T/attn-real-app-harness/chief-slot-2026-10-19T18-35-50-788Z/summary.json",
+  "durationMs": 61030
+}

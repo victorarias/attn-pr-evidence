@@ -1,0 +1,107 @@
+ 1:  e14929a31 =  1:  ecd95d166 feat(crew): move chief setup beside the sidebar
+ 2:  bad381954 !  2:  40f6cb0fe fix(crew): preserve setup focus and layout through native transitions
+    @@ app/src/components/ChiefSlot.tsx: export function ChiefSlot() {
+     
+      ## app/src/hooks/uiAutomationDomActions.ts ##
+     @@ app/src/hooks/uiAutomationDomActions.ts: export async function runDomAutomationAction(
+    -       const panel = element.closest<HTMLElement>('.side-panel');
+            return {
+              bounds: rectSnapshot(element),
+    +         animations: element.getAnimations({ subtree: true }).map((animation) => ({ state: animation.playState })),
+     +        clientWidth: element.clientWidth,
+     +        clientHeight: element.clientHeight,
+     +        scrollWidth: element.scrollWidth,
+ 3:  dc5f52ebc =  3:  51785a6c9 fix(crew): allow switching harness after model lookup failures
+ 4:  93d3bc09d =  4:  33deb8880 fix(crew): preserve Enter on model discovery retry
+ 5:  97e61618d =  5:  22a5c3f3f test(crew): keep chief scenario parked off-screen
+ 6:  c101d0bb7 =  6:  4fd35598c test(crew): refresh app availability after removing harness fixtures
+ 7:  9d18c7f9a =  7:  cc1f9f30e test(crew): await daemon acknowledgement of fixture settings
+ 8:  de8e598b2 =  8:  a01b0ce61 test(crew): open the agent list after the cold restart
+ 9:  7f55f5d00 !  9:  73b244741 test(crew): record parked chief scenario duration
+    @@ app/scripts/real-app-harness/scenario-durations.json
+              "runnerClass": "local macOS",
+     -        "note": "Green ATTN_VERDICT durationMs=68984, including cleanup and recording. Folder prefill/edit/Enter configure, final home and cwd, restored-terminal and configured-save focus, sleep/wake, and Notebook charter open/autosave with 92 copied real notes. Remeasure on Linux CI."
+     +        "note": "Green ATTN_VERDICT durationMs=82909 at de8e598b2, including cleanup. Both sidebar flows, popover first run/no-harness/error/waking, restored-terminal and cold-catalog configured-save focus, Sleep/one-click Wake, and Notebook charter autosave with 23 copied guide files. Window parked with 20 logical px visible. Remeasure on Linux CI."
+    -       },
+    -       "agent-queue": {
+    -         "run": "agent-queue-2026-10-10T21-37-29-864Z",
+    +       }
+    +     }
+    +   },
+     @@
+    -     "desktop-order": 23.413,
+    -     "close-desktop": 33.297,
+    +     "callouts": 39.5,
+    +     "quick-capture": 206.599,
+          "notebook-profile-scope": 39.473,
+     -    "chief-slot": 68.984
+     +    "chief-slot": 82.909
+10:  9d3e534fe ! 10:  be996295a test(crew): dismiss first-run setup before desktop interactions
+    @@ app/e2e/desktop-sessions.spec.ts: test.describe('Desktop Sessions', () => {
+          await waitForMockPtyBanner(page, 'font-agent');
+     
+      ## app/e2e/fixtures.ts ##
+    -@@ app/e2e/fixtures.ts: class MockGitHubServer {
+    -   }
+    - }
+    - 
+    --// The teardown kill interpolates this port, so it must stay scoped to this run's
+    --// own daemon and never a peer agent's.
+    - const { daemonPort: TEST_DAEMON_PORT } = e2ePorts();
+    - const MOCK_GH_HOST = 'mock.github.local';
+    - const TEST_DAEMON_WS_URL = `ws://127.0.0.1:${TEST_DAEMON_PORT}/ws`;
+    - 
+    --async function killTestDaemons(): Promise<void> {
+    --  try {
+    --    await new Promise<void>((resolve) => {
+    --      spawn('pkill', ['-f', `ATTN_WS_PORT=${TEST_DAEMON_PORT}`], { stdio: 'ignore' }).on('close', () => resolve());
+    --    });
+    --    await new Promise((resolve) => setTimeout(resolve, 300));
+    --  } catch {
+    --  }
+    --}
+    --
+    - function createFakeAgentStubs(): { binDir: string; cleanup: () => void } {
+    -   const binDir = fs.mkdtempSync(path.join(os.tmpdir(), 'attn-e2e-stubs-'));
+    -   for (const name of ['claude', 'codex', 'copilot']) {
+    -@@ app/e2e/fixtures.ts: export const test = base.extend<Fixtures>({
+    -     let daemon: { proc: ChildProcess; socketPath: string; tempDir: string; stop: () => void } | null = null;
+    - 
+    -     const startFn = async () => {
+    --      await killTestDaemons();
+    --
+    -       daemon = await startDaemon(mockGitHub.url);
+    -       return {
+    -         wsUrl: TEST_DAEMON_WS_URL,
+    -@@ app/e2e/fixtures.ts: export const test = base.extend<Fixtures>({
+    - 
+    -     const fixture: DaemonFixture = {
+    -       start: async () => {
+    --        await killTestDaemons();
+    -         await managed.start();
+    -         started = true;
+    -         return {
+     @@ app/e2e/fixtures.ts: export async function waitForMockPtyBanner(
+          .toBe(true);
+      }
+11:  298049eb9 ! 11:  9418c96fd test(crew): keep idle sampling out of the functional chief scenario
+    @@ app/scripts/real-app-harness/scenario-durations.json
+     +        "seconds": 94.161,
+     +        "runnerClass": "local Linux SSH runner, 12 vCPU",
+     +        "note": "Green CHIEF-SLOT ATTN_VERDICT durationMs=94161 at 9d3e534fe with nonasserting CPU sampling removed, including cleanup. All eight functional steps passed within the unchanged 120s matrix tripwire. Earlier macOS parked-window and idle CPU receipts remain on s-fzyxav."
+    -       },
+    -       "agent-queue": {
+    -         "run": "agent-queue-2026-10-10T21-37-29-864Z",
+    +       }
+    +     }
+    +   },
+     @@
+    -     "desktop-order": 23.413,
+    -     "close-desktop": 33.297,
+    +     "callouts": 39.5,
+    +     "quick-capture": 206.599,
+          "notebook-profile-scope": 39.473,
+     -    "chief-slot": 82.909
+     +    "chief-slot": 94.161
+12:  aa6c5cd12 = 12:  e635a4a48 test(crew): dismiss onboarding before terminal browser interactions
+13:  a8f0c6c24 = 13:  94a6dc467 refactor(crew): initialize the setup harness without an effect
