@@ -1,0 +1,24 @@
+[attn instance=chiefsync socket=~/.attn-chiefsync/attn.sock port=28400]
+attn preflight: PASS (0 failed, 0 warnings)
+instance: chiefsync  socket=/Users/victor/.attn-chiefsync/attn.sock  port=28400
+launch: agent=codex (environment) model=agent-default effort=agent-default
+
+PASS launch.agent              codex is built into the daemon
+PASS tool.cargo                /Users/victor/.local/share/mise/shims/cargo
+PASS tool.gh                   /opt/homebrew/bin/gh
+PASS tool.git                  /opt/homebrew/bin/git
+PASS tool.go                   /Users/victor/.local/share/mise/shims/go
+PASS tool.make                 /usr/bin/make
+PASS tool.pnpm                 /Users/victor/.local/share/mise/shims/pnpm
+PASS tool.codex                /Users/victor/.local/bin/codex
+PASS path.working_directory    /Users/victor/projects/victor/attn--fix-chief-setup-focus-notebook-sync
+PASS path.instance_data        /Users/victor/.attn-chiefsync
+PASS path.applications         /Users/victor/Applications
+PASS path.go_build_cache       /Users/victor/Library/Caches/go-build
+PASS path.go_module_cache      /Users/victor/go/pkg/mod
+PASS routing.socket            /Users/victor/.attn-chiefsync/attn.sock
+PASS protocol.cli_app          CLI and installed app use protocol 9b4b80f09050
+PASS daemon.readiness          daemon startup is complete
+PASS routing.daemon            instance=chiefsync socket=/Users/victor/.attn-chiefsync/attn.sock port=28400
+PASS protocol.app_daemon       installed app and daemon use protocol 9b4b80f09050
+PASS headless.tasks            daemon headless tasks on

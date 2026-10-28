@@ -1,0 +1,517 @@
+[
+  {
+    "event": "outposts_updated",
+    "outposts": []
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "reach": "connecting",
+        "state": "connecting",
+        "state_since": "2026-10-28T03:34:25.486105Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "state": "first_sync"
+        },
+        "reach": "connecting",
+        "state": "connecting",
+        "state_since": "2026-10-28T03:34:25.486105Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "state": "first_sync"
+        },
+        "reach": "connecting",
+        "state": "connecting",
+        "state_since": "2026-10-28T03:34:25.486105Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "state": "first_sync"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:25.612881Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "first_sync"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:25.612881Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "need_bytes": 268435464,
+          "need_items": 17,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "first_sync"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:25.612881Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "need_bytes": 0,
+          "need_items": 0,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "in_sync"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:25.612881Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "reach": "unreachable",
+        "state": "lost",
+        "state_since": "2026-10-28T03:34:25.612881Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "reach": "unreachable",
+        "state": "lost",
+        "state_since": "2026-10-28T03:34:25.612881Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "reach": "unreachable",
+        "state": "lost",
+        "state_since": "2026-10-28T03:34:25.612881Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "state": "syncing"
+        },
+        "reach": "unreachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:25.612881Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "reach": "connecting",
+        "state": "connecting",
+        "state_since": "2026-10-28T03:34:29.966703Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:29.970965Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "syncing"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:29.970965Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "syncing"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:29.970965Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "need_bytes": 12,
+          "need_items": 1,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "syncing"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:29.970965Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 1,
+          "need_bytes": 12,
+          "need_items": 1,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "syncing"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:29.970965Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 1,
+          "need_bytes": 9,
+          "need_items": 1,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "syncing"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:29.970965Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 1,
+          "need_bytes": 0,
+          "need_items": 0,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "in_sync"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:29.970965Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "need_bytes": 0,
+          "need_items": 0,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "in_sync"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:29.970965Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "last_error": "bridge to d-05ef373ba542d236cc30662975fd2e6d lost: EOF",
+        "last_error_at": "2026-10-28T03:34:35.041415Z",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "need_bytes": 0,
+          "need_items": 0,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "in_sync"
+        },
+        "reach": "unreachable",
+        "state": "lost",
+        "state_since": "2026-10-28T03:34:35.04141Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "last_error": "dial tcp 127.0.0.1:64791: connect: connection refused",
+        "last_error_at": "2026-10-28T03:34:35.04211Z",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "need_bytes": 0,
+          "need_items": 0,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "in_sync"
+        },
+        "reach": "unreachable",
+        "state": "lost",
+        "state_since": "2026-10-28T03:34:35.04141Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "last_error": "dial tcp 127.0.0.1:64791: connect: connection refused",
+        "last_error_at": "2026-10-28T03:34:35.04211Z",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "syncing"
+        },
+        "reach": "unreachable",
+        "state": "lost",
+        "state_since": "2026-10-28T03:34:35.04141Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "syncing"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:37.044473Z"
+      }
+    ]
+  },
+  {
+    "event": "outposts_updated",
+    "outposts": [
+      {
+        "address": "127.0.0.1:64791",
+        "build": "0.13.0 (source git:31c4f59bc1a927c9eab33901741737868f192a5e, protocol 9b4b80f09050)",
+        "daemon_id": "d-05ef373ba542d236cc30662975fd2e6d",
+        "host_key_fingerprint": "SHA256:ocnLeGmqEQsYYMCSdENW3uDNh7pT2m2tbwYP4T5odfM",
+        "id": "2e449273-bfd0-4a70-87a0-8edf4c294ea3",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "error": "Studio: folder marker missing (this indicates potential data loss, search docs/forum to get information about how to proceed)",
+          "previous_root": "/private/tmp/attn-nb-sRWsUR/outpost-data/notebook.before-sync-20261028T033425.489949000Z",
+          "state": "error"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:34:37.044473Z"
+      }
+    ]
+  }
+]
