@@ -1,0 +1,105 @@
+{
+  "ok": true,
+  "scenarioId": "NotebookSync",
+  "tier": "local",
+  "runId": "notebook-sync-2026-10-28T03-30-50-776Z",
+  "runDir": "/home/victor/.local/share/attn-linux-runner/bf1596fdd6/artifacts/notebook-sync-2026-10-28T03-30-50-776Z",
+  "sessionDir": "/tmp/attn-real-app-sessions/notebook-sync-2026-10-28T03-30-50-776Z",
+  "metadata": {},
+  "steps": [
+    {
+      "name": "first_sync_and_saved_previous_folder",
+      "startedAt": "2026-10-28T03:30:56.156Z",
+      "endedAt": "2026-10-28T03:31:00.087Z",
+      "durationMs": 3931,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "conflicting_offline_edits_keep_both_versions",
+      "startedAt": "2026-10-28T03:31:00.087Z",
+      "endedAt": "2026-10-28T03:31:02.433Z",
+      "durationMs": 2346,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "removed_conflict_and_missing_marker",
+      "startedAt": "2026-10-28T03:31:02.433Z",
+      "endedAt": "2026-10-28T03:31:07.519Z",
+      "durationMs": 5086,
+      "status": "ok",
+      "details": null
+    }
+  ],
+  "assertions": [
+    {
+      "ok": true,
+      "message": "outpost ready",
+      "details": null,
+      "at": "2026-10-28T03:30:51.381Z"
+    },
+    {
+      "ok": true,
+      "message": "first sync names what is left",
+      "details": {
+        "address": "127.0.0.1:32995",
+        "build": "0.13.0 (source tree:da917a7eee4714c394aedd73a5388f0c6169c1d4c8700df7cc883b44ab51922d, protocol 9b4b80f09050)",
+        "daemon_id": "d-6c99c13ba1e7bd6630a88e14151f8908",
+        "host_key_fingerprint": "SHA256:TBMxAoVVCxcWToeual3P7vdPhHMsVIATGHPFoQ/acvc",
+        "id": "130ff541-cb61-4c16-93fc-08976646cf2e",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "need_bytes": 268435464,
+          "need_items": 17,
+          "previous_root": "/tmp/attn-nb-v2UgIU/outpost-data/notebook.before-sync-20261028T033056.161839651Z",
+          "state": "first_sync"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:30:56.172220315Z"
+      },
+      "at": "2026-10-28T03:30:58.234Z"
+    },
+    {
+      "ok": true,
+      "message": "first sync reached outpost disk",
+      "details": null,
+      "at": "2026-10-28T03:30:59.936Z"
+    },
+    {
+      "ok": true,
+      "message": "both edits survived",
+      "details": [
+        "outpost edit",
+        "home edit"
+      ],
+      "at": "2026-10-28T03:31:02.284Z"
+    },
+    {
+      "ok": true,
+      "message": "sync error names the cause",
+      "details": {
+        "address": "127.0.0.1:32995",
+        "build": "0.13.0 (source tree:da917a7eee4714c394aedd73a5388f0c6169c1d4c8700df7cc883b44ab51922d, protocol 9b4b80f09050)",
+        "daemon_id": "d-6c99c13ba1e7bd6630a88e14151f8908",
+        "host_key_fingerprint": "SHA256:TBMxAoVVCxcWToeual3P7vdPhHMsVIATGHPFoQ/acvc",
+        "id": "130ff541-cb61-4c16-93fc-08976646cf2e",
+        "name": "Studio",
+        "notebook": {
+          "conflicts": 0,
+          "error": "Studio: folder marker missing (this indicates potential data loss, search docs/forum to get information about how to proceed)",
+          "previous_root": "/tmp/attn-nb-v2UgIU/outpost-data/notebook.before-sync-20261028T033056.161839651Z",
+          "state": "error"
+        },
+        "reach": "reachable",
+        "state": "connected",
+        "state_since": "2026-10-28T03:31:07.321538615Z"
+      },
+      "at": "2026-10-28T03:31:07.324Z"
+    }
+  ],
+  "headlessTasks": "off",
+  "mockGitHub": "http://127.0.0.1:32325"
+}

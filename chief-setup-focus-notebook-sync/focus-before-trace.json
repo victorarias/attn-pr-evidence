@@ -1,0 +1,242 @@
+{
+  "className": "",
+  "selectionStart": null,
+  "tag": "BODY",
+  "testId": null,
+  "valueLength": null,
+  "events": [
+    {
+      "active": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "at": 7810.000000000001,
+      "detail": [
+        {
+          "cls": "session-actions-popover",
+          "connected": false,
+          "label": "Actions for Chief",
+          "tag": "DIV"
+        }
+      ],
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "removed"
+    },
+    {
+      "active": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "at": 8104.000000000001,
+      "detail": {
+        "canSave": true,
+        "catalog": [
+          "mock-agent-1"
+        ],
+        "executable": "/Users/victor/projects/victor/attn--fix-chief-setup-focus-notebook-sync/app/scripts/real-app-harness/mockAgent.mjs",
+        "modelsLoading": false,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "at": 8105,
+      "detail": {
+        "canSave": false,
+        "catalog": [
+          "mock-agent-1"
+        ],
+        "executable": "/Users/victor/projects/victor/attn--fix-chief-setup-focus-notebook-sync/app/scripts/real-app-harness/mockAgent.mjs",
+        "modelsLoading": true,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "at": 8105,
+      "detail": {
+        "old": null,
+        "target": {
+          "cls": "chief-pop-primary",
+          "connected": true,
+          "disabled": true,
+          "label": null,
+          "tag": "BUTTON",
+          "text": "Save for next wake\u23ce"
+        }
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "primary-disabled"
+    },
+    {
+      "active": {
+        "cls": "",
+        "connected": true,
+        "label": null,
+        "tag": "BODY"
+      },
+      "at": 8116,
+      "detail": {
+        "prevented": false,
+        "target": {
+          "cls": "chief-pop-primary",
+          "connected": true,
+          "disabled": true,
+          "label": null,
+          "tag": "BUTTON",
+          "text": "Save for next wake\u23ce"
+        }
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "focusout"
+    },
+    {
+      "active": {
+        "cls": "",
+        "connected": true,
+        "label": null,
+        "tag": "BODY"
+      },
+      "at": 8162.000000000001,
+      "detail": {
+        "canSave": false,
+        "catalog": [
+          "mock-agent-1"
+        ],
+        "executable": "/Users/victor/projects/victor/attn--fix-chief-setup-focus-notebook-sync/app/scripts/real-app-harness/mockAgent.mjs",
+        "modelsLoading": true,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "",
+        "connected": true,
+        "label": null,
+        "tag": "BODY"
+      },
+      "at": 8163,
+      "detail": {
+        "canSave": true,
+        "catalog": [
+          "mock-agent-1"
+        ],
+        "executable": "/Users/victor/projects/victor/attn--fix-chief-setup-focus-notebook-sync/app/scripts/real-app-harness/mockAgent.mjs",
+        "modelsLoading": false,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "",
+        "connected": true,
+        "label": null,
+        "tag": "BODY"
+      },
+      "at": 8163,
+      "detail": {
+        "old": "",
+        "target": {
+          "cls": "chief-pop-primary",
+          "connected": true,
+          "disabled": false,
+          "label": null,
+          "tag": "BUTTON",
+          "text": "Save for next wake\u23ce"
+        }
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "primary-disabled"
+    }
+  ]
+}

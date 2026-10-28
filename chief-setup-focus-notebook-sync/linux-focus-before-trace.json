@@ -1,0 +1,330 @@
+{
+  "chief": {
+    "member": "m-9568a1",
+    "phase": "awake",
+    "present": true,
+    "sessionId": "001ec747-30af-4420-a822-2bf52c56bd73",
+    "setupOpen": true,
+    "shownAgentId": "001ec747-30af-4420-a822-2bf52c56bd73"
+  },
+  "focus": {
+    "className": "",
+    "matches": false,
+    "selectionStart": null,
+    "tag": "BODY",
+    "testId": null,
+    "valueLength": null
+  },
+  "setup": {
+    "text": "Chief's harnessescHarnessClaude CodeCodexModelMock agent 1standardEffortlowmediumhighSave for next wake\u23ce"
+  },
+  "menu": {
+    "error": "Error: Automation request failed: dom_text (ui-automation-client-1793157981774-17798bf6a8bb9): dom_text selector not found in DOM: [role=\"menu\"]"
+  },
+  "focusEvents": [
+    {
+      "active": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "at": 36349.00000000001,
+      "detail": {
+        "canSave": true,
+        "catalog": [
+          "mock-agent-1"
+        ],
+        "executable": "/home/victor/.local/share/attn-linux-runner/bf1596fdd6/source/app/scripts/real-app-harness/mockAgent.mjs",
+        "modelsLoading": false,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "at": 36349.00000000001,
+      "detail": [
+        {
+          "cls": "session-actions-popover",
+          "connected": false,
+          "label": "Actions for Chief",
+          "tag": "DIV"
+        }
+      ],
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "removed"
+    },
+    {
+      "active": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "at": 36724.00000000001,
+      "detail": {
+        "canSave": true,
+        "executable": "/tmp/attn-real-app-sessions/chief-slot-2026-10-28T03-25-02-832Z/refreshed-claude.mjs",
+        "modelsLoading": false,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "at": 36725,
+      "detail": {
+        "canSave": false,
+        "executable": "/tmp/attn-real-app-sessions/chief-slot-2026-10-28T03-25-02-832Z/refreshed-claude.mjs",
+        "modelsLoading": true,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "at": 36725,
+      "detail": {
+        "old": null,
+        "target": {
+          "cls": "chief-pop-primary",
+          "connected": true,
+          "disabled": true,
+          "label": null,
+          "tag": "BUTTON",
+          "text": "Save for next wake\u23ce"
+        }
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "primary-disabled"
+    },
+    {
+      "active": {
+        "cls": "",
+        "connected": true,
+        "label": null,
+        "tag": "BODY"
+      },
+      "at": 36730.00000000001,
+      "detail": {
+        "prevented": false,
+        "target": {
+          "cls": "chief-pop-primary",
+          "connected": true,
+          "disabled": true,
+          "label": null,
+          "tag": "BUTTON",
+          "text": "Save for next wake\u23ce"
+        }
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "focusout"
+    },
+    {
+      "active": {
+        "cls": "",
+        "connected": true,
+        "label": null,
+        "tag": "BODY"
+      },
+      "at": 36757,
+      "detail": {
+        "canSave": false,
+        "executable": "/tmp/attn-real-app-sessions/chief-slot-2026-10-28T03-25-02-832Z/refreshed-claude.mjs",
+        "modelsLoading": true,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "",
+        "connected": true,
+        "label": null,
+        "tag": "BODY"
+      },
+      "at": 36757,
+      "detail": {
+        "canSave": false,
+        "executable": "/tmp/attn-real-app-sessions/chief-slot-2026-10-28T03-25-02-832Z/refreshed-claude.mjs",
+        "modelsLoading": true,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "",
+        "connected": true,
+        "label": null,
+        "tag": "BODY"
+      },
+      "at": 36762,
+      "detail": {
+        "canSave": false,
+        "executable": "/tmp/attn-real-app-sessions/chief-slot-2026-10-28T03-25-02-832Z/refreshed-claude.mjs",
+        "modelsLoading": true,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": true,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "",
+        "connected": true,
+        "label": null,
+        "tag": "BODY"
+      },
+      "at": 36764,
+      "detail": {
+        "canSave": true,
+        "catalog": [
+          "mock-agent-1"
+        ],
+        "executable": "/tmp/attn-real-app-sessions/chief-slot-2026-10-28T03-25-02-832Z/refreshed-claude.mjs",
+        "modelsLoading": false,
+        "pending": null,
+        "registryLoading": false
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "layout"
+    },
+    {
+      "active": {
+        "cls": "",
+        "connected": true,
+        "label": null,
+        "tag": "BODY"
+      },
+      "at": 36764,
+      "detail": {
+        "old": "",
+        "target": {
+          "cls": "chief-pop-primary",
+          "connected": true,
+          "disabled": false,
+          "label": null,
+          "tag": "BUTTON",
+          "text": "Save for next wake\u23ce"
+        }
+      },
+      "primary": {
+        "cls": "chief-pop-primary",
+        "connected": true,
+        "disabled": false,
+        "label": null,
+        "tag": "BUTTON",
+        "text": "Save for next wake\u23ce"
+      },
+      "type": "primary-disabled"
+    }
+  ]
+}

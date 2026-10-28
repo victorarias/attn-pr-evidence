@@ -1,0 +1,177 @@
+{
+  "ok": false,
+  "scenarioId": "CHIEF-SLOT",
+  "tier": "local",
+  "runId": "chief-slot-2026-10-28T03-25-02-832Z",
+  "runDir": "/home/victor/.local/share/attn-linux-runner/bf1596fdd6/artifacts/chief-slot-2026-10-28T03-25-02-832Z",
+  "sessionDir": "/tmp/attn-real-app-sessions/chief-slot-2026-10-28T03-25-02-832Z",
+  "metadata": {},
+  "steps": [
+    {
+      "name": "fresh_profile",
+      "startedAt": "2026-10-28T03:25:02.929Z",
+      "endedAt": "2026-10-28T03:25:25.988Z",
+      "durationMs": 23059,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "no_harness_recheck",
+      "startedAt": "2026-10-28T03:25:25.988Z",
+      "endedAt": "2026-10-28T03:25:28.759Z",
+      "durationMs": 2771,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "restored_live_terminal_keeps_setup_closed",
+      "startedAt": "2026-10-28T03:25:28.760Z",
+      "endedAt": "2026-10-28T03:25:46.143Z",
+      "durationMs": 17383,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "enter_wakes_and_focuses",
+      "startedAt": "2026-10-28T03:25:46.143Z",
+      "endedAt": "2026-10-28T03:25:55.621Z",
+      "durationMs": 9478,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "configured_escape_and_save_return_row_focus",
+      "startedAt": "2026-10-28T03:25:55.621Z",
+      "endedAt": "2026-10-28T03:26:03.764Z",
+      "durationMs": 8143,
+      "status": "ok",
+      "details": null
+    },
+    {
+      "name": "configured_catalog_refresh_keeps_primary_focus",
+      "startedAt": "2026-10-28T03:26:03.765Z",
+      "endedAt": "2026-10-28T03:26:21.641Z",
+      "durationMs": 17876,
+      "status": "error",
+      "details": null,
+      "error": "Error: Automation request failed: dom_wait (ui-automation-client-1793157966606-0a01ce8e030278): dom_wait timeoutMs=15000 exceeded: selector=[data-testid=\"chief-setup\"] .chief-pop-primary:not(:disabled), absent=false, textIncludes=undefined, focused=true\n    at Socket.<anonymous> (file:///home/victor/.local/share/attn-linux-runner/bf1596fdd6/source/app/scripts/real-app-harness/uiAutomationClient.mjs:365:20)\n    at Socket.emit (node:events:514:20)\n    at addChunk (node:internal/streams/readable:575:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:526:3)\n    at Readable.push (node:internal/streams/readable:406:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)"
+    }
+  ],
+  "assertions": [
+    {
+      "ok": true,
+      "message": "a new profile has an unconfigured chief",
+      "details": {
+        "chief": {
+          "awareness_dirs": [],
+          "charter_path": "",
+          "chief": true,
+          "first_day": "none",
+          "home_dir": "",
+          "key": "m-9568a1",
+          "launch_desktop": {
+            "label": "Chief (new)"
+          },
+          "name": "Chief",
+          "profile_id": "profile-32543cbd-f7c8-41b1-939b-2582a7d19de6",
+          "profile_name": "Chief slot chief-slot-2026-10-28T03-25-02-832Z",
+          "retired": false,
+          "revision": 1
+        }
+      },
+      "at": "2026-10-28T03:25:23.474Z"
+    },
+    {
+      "ok": true,
+      "message": "first-run setup fits without clipping or scrollbars",
+      "details": {
+        "animations": [],
+        "bounds": {
+          "height": 216,
+          "width": 250,
+          "x": 265,
+          "y": 219
+        },
+        "clientHeight": 216,
+        "clientWidth": 250,
+        "panel": null,
+        "scrollHeight": 216,
+        "scrollWidth": 250
+      },
+      "at": "2026-10-28T03:25:23.571Z"
+    },
+    {
+      "ok": true,
+      "message": "the folder is prefilled with the profile Notebook",
+      "details": {
+        "defaultFolder": "~/attn-notebook-linux-bf1596fdd6-chief-slot-chief-slot-2026-10-28t03-25-02-832z"
+      },
+      "at": "2026-10-28T03:25:48.378Z"
+    },
+    {
+      "ok": true,
+      "message": "Enter on Wake accepts the selected route and shows the chief",
+      "details": {
+        "awake": {
+          "member": "m-9568a1",
+          "phase": "awake",
+          "present": true,
+          "sessionId": "001ec747-30af-4420-a822-2bf52c56bd73",
+          "setupOpen": false,
+          "shownAgentId": "001ec747-30af-4420-a822-2bf52c56bd73"
+        }
+      },
+      "at": "2026-10-28T03:25:55.420Z"
+    },
+    {
+      "ok": true,
+      "message": "the roster binds the chief to the shown session",
+      "details": null,
+      "at": "2026-10-28T03:25:55.445Z"
+    },
+    {
+      "ok": true,
+      "message": "the chief has its final Notebook home and working directory",
+      "details": {
+        "configured": {
+          "agent": "claude",
+          "awareness_dirs": [],
+          "binding_session": "001ec747-30af-4420-a822-2bf52c56bd73",
+          "charter_path": "/tmp/attn-real-app-sessions/chief-slot-2026-10-28T03-25-02-832Z/chief-notebook/crew/chief/CHARTER.md",
+          "chief": true,
+          "cwd": "/tmp/attn-real-app-sessions/chief-slot-2026-10-28T03-25-02-832Z/chief-notebook",
+          "effort": "low",
+          "first_day": "none",
+          "home_dir": "/tmp/attn-real-app-sessions/chief-slot-2026-10-28T03-25-02-832Z/chief-notebook/crew/chief",
+          "key": "m-9568a1",
+          "launch_desktop": {
+            "desktop_id": "desktop-c0947452-22ce-4e41-8b7d-1ed55bbfc06a",
+            "label": "Chief (no ⌘ number)"
+          },
+          "model": "mock-agent-1",
+          "name": "Chief",
+          "profile_id": "profile-32543cbd-f7c8-41b1-939b-2582a7d19de6",
+          "profile_name": "Chief slot chief-slot-2026-10-28T03-25-02-832Z",
+          "resolved_agent": "claude",
+          "resolved_effort": "low",
+          "resolved_model": "mock-agent-1",
+          "retired": false,
+          "revision": 3
+        }
+      },
+      "at": "2026-10-28T03:25:55.445Z"
+    },
+    {
+      "ok": true,
+      "message": "setup saves the profile Notebook folder",
+      "details": null,
+      "at": "2026-10-28T03:25:55.472Z"
+    }
+  ],
+  "error": "Error: Automation request failed: dom_wait (ui-automation-client-1793157966606-0a01ce8e030278): dom_wait timeoutMs=15000 exceeded: selector=[data-testid=\"chief-setup\"] .chief-pop-primary:not(:disabled), absent=false, textIncludes=undefined, focused=true\n    at Socket.<anonymous> (file:///home/victor/.local/share/attn-linux-runner/bf1596fdd6/source/app/scripts/real-app-harness/uiAutomationClient.mjs:365:20)\n    at Socket.emit (node:events:514:20)\n    at addChunk (node:internal/streams/readable:575:12)\n    at readableAddChunkPushByteMode (node:internal/streams/readable:526:3)\n    at Readable.push (node:internal/streams/readable:406:5)\n    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)",
+  "headlessTasks": "off",
+  "mockGitHub": "http://127.0.0.1:32325",
+  "profile": "profile-32543cbd-f7c8-41b1-939b-2582a7d19de6",
+  "chief": "m-9568a1",
+  "firstDay": "001ec747-30af-4420-a822-2bf52c56bd73"
+}
