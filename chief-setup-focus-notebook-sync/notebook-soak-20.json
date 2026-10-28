@@ -1,0 +1,218 @@
+{
+  "head_sha": "31c4f59bc1a927c9eab33901741737868f192a5e",
+  "workflow": "https://github.com/SolenesInc/attn/actions/runs/40627278899",
+  "job": "https://github.com/SolenesInc/attn/actions/runs/40627278899/job/122617587251",
+  "iterations": 20,
+  "rollup": {
+    "ok": true,
+    "scenarioId": "soak:notebook-sync",
+    "runId": "soak-notebook-sync-2026-10-28T03-41-36-946Z",
+    "failureCount": 0,
+    "firstFailure": null,
+    "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/soak-notebook-sync-2026-10-28T03-41-36-946Z",
+    "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/soak-notebook-sync-2026-10-28T03-41-36-946Z/soak-report.json",
+    "durationMs": 562360
+  },
+  "runs": [
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-41-37-550Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-41-37-550Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-41-37-550Z/summary.json",
+      "durationMs": 19025
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-41-56-894Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-41-56-894Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-41-56-894Z/summary.json",
+      "durationMs": 30975
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-42-28-193Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-42-28-193Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-42-28-193Z/summary.json",
+      "durationMs": 30632
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-42-59-161Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-42-59-161Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-42-59-161Z/summary.json",
+      "durationMs": 30334
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-43-29-836Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-43-29-836Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-43-29-836Z/summary.json",
+      "durationMs": 30468
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-44-00-657Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-44-00-657Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-44-00-657Z/summary.json",
+      "durationMs": 30389
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-44-31-338Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-44-31-338Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-44-31-338Z/summary.json",
+      "durationMs": 15816
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-44-47-463Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-44-47-463Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-44-47-463Z/summary.json",
+      "durationMs": 30461
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-45-18-266Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-45-18-266Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-45-18-266Z/summary.json",
+      "durationMs": 30617
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-45-49-213Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-45-49-213Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-45-49-213Z/summary.json",
+      "durationMs": 16039
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-46-05-581Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-46-05-581Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-46-05-581Z/summary.json",
+      "durationMs": 30376
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-46-36-288Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-46-36-288Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-46-36-288Z/summary.json",
+      "durationMs": 15572
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-46-52-210Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-46-52-210Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-46-52-210Z/summary.json",
+      "durationMs": 30540
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-47-23-074Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-47-23-074Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-47-23-074Z/summary.json",
+      "durationMs": 30482
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-47-53-885Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-47-53-885Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-47-53-885Z/summary.json",
+      "durationMs": 30561
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-48-24-758Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-48-24-758Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-48-24-758Z/summary.json",
+      "durationMs": 30843
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-48-55-930Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-48-55-930Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-48-55-930Z/summary.json",
+      "durationMs": 30476
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-49-26-723Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-49-26-723Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-49-26-723Z/summary.json",
+      "durationMs": 30645
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-49-57-692Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-49-57-692Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-49-57-692Z/summary.json",
+      "durationMs": 30543
+    },
+    {
+      "ok": true,
+      "scenarioId": "NotebookSync",
+      "runId": "notebook-sync-2026-10-28T03-50-28-563Z",
+      "failureCount": 0,
+      "firstFailure": null,
+      "artifactsDir": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-50-28-563Z",
+      "summaryPath": "/home/runner/work/_temp/attn-real-app-harness/notebook-sync-2026-10-28T03-50-28-563Z/summary.json",
+      "durationMs": 30606
+    }
+  ]
+}
